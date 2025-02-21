@@ -1,0 +1,15 @@
+cd .. 
+cd ./
+source venv/Scripts/activate
+deactivate
+
+requirements file의 경우 git으로 관리되지 않도록 구현 -> gitignore
+
+## git 관련 
+git init
+git remote add origin 주소
+
+
+pip freeze > requirements.txt    // 파일 생성 
+python manage.py migrate --fake  // 마이그레이션 초기화 
+python manage.py runsever // 서버 여는 명령어 
