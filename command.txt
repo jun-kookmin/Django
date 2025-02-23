@@ -12,4 +12,4 @@ git remote add origin 주소
 
 pip freeze > requirements.txt    // 파일 생성 
 python manage.py migrate --fake  // 마이그레이션 초기화 
-python manage.py runsever // 서버 여는 명령어 
+python manage.py runserver // 서버 여는 명령어 
